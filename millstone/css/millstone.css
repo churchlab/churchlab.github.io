@@ -63,7 +63,8 @@ hr {
   padding-bottom: 60px;
   padding-left:0px;
   padding-right:0px;
-  opacity:0.6;
+  border-radius:15px;
+
 }
 
 
@@ -155,6 +156,14 @@ footer p {
   display: inline-block;
   color: #999;
 }
+
+.clearboth {
+  clear: both;
+  width: 0px;
+  height: 0px;
+  margin: 0px;
+}
+
 
 
 

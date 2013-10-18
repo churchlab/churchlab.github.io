@@ -1,9 +1,5 @@
 body {
-  background: url(../img/bg.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  background: url(../img/noisy.png); 
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -28,41 +24,50 @@ hr {
   display: none;
 }
 
-
-.navbar-brand {
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  font-weight: 900;
+.toptext {
+  font-size:2em;
 }
 
-.navbar-nav {
-  text-transform: uppercase;
-  letter-spacing: 3px;
-  font-weight: 400;
+.blurb {
+  background:rgba(136, 189, 64, .6);
+  margin-top: 60px;
+  padding-left:60px;
+  padding-right:60px;
+  margin-left:-7px;
+  margin-right:-7px;
+  text-shadow: 1px 1px 2px rgba(255, 255, 255, 1);
 }
 
-.img-full {
-  min-width: 100%;
-}
-
-.brand-name {
-  font-weight: 700;
+.subtitle {
+  background:rgba(136, 189, 64, .6);
+  margin-left: -23px;
+  margin-right: -23px;
+  padding-left: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
   font-size: 1.5em;
-  text-transform: capitalize;
-  letter-spacing: normal;
+  text-shadow: 1px 1px 2px rgba(255, 255, 255, 1);
 }
 
-.tagline-divider {
-  margin: 15px auto 3px;
-  border-color: #999999;
-  max-width: 250px;
+.jumbotron {
+  background: url(../img/millstone_top_washed3.png);
+  background-repeat: no-repeat;
+  margin-top: 30px;
+  padding-top: 0px; text-align:center;
+  padding-bottom: 60px;
+  padding-left:0px;
+  padding-right:0px;
 }
+
 
 .box {
   background: #fff;
-  background: rgba(255,255,255,0.9);
+  background: rgba(255,255,255,0.4);
   margin-bottom: 20px;
-  padding: 30px 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+  padding: 30px 0px;
+  border-radius:15px;
 }
 
 .intro-text {
@@ -83,6 +88,23 @@ hr {
   margin: 0 auto 0;
 }
 
+.img-center {
+  float: center;
+  margin: 0 auto 0;
+}
+
+
+.top1 {
+    height:300px;
+    background-color:#FFFFFF;
+    margin-top:10px;
+    overflow: hidden;
+}
+
+.top1 img {
+    height:100%;
+}
+
 footer {
   background: #fff;
   background: rgba(255,255,255,0.9);
@@ -96,7 +118,7 @@ footer p {
 @media screen and (min-width: 768px) {
 
 .brand {
-  display: inherit;
+  float: center;
   font-weight: 700;
   font-size: 5em;
   line-height: normal;

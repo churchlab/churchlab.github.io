@@ -1,49 +1,58 @@
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
+    <link rel="shortcut icon" href="../../assets/ico/favicon.ico">
 
-    <title>Millstone: a multiplex genome analysis platform</title>
+    <title>Millstone: multiplex genome engineering and analysis</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
 
-    <!-- Add custom CSS here -->
-    <link href="css/millstone.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="css/bootstrap-narrow.css" rel="stylesheet">
+
+    <script type="text/javascript" src="js/jquery-1.10.2.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+
+    <link rel="shortcut icon"
+          type="image/png"
+          href="img/logo2.png">
   </head>
 
   <body>
+
     <div class="container">
-      <div class="jumbotron" style='padding-left:0px; padding-right:0px;'>
-        <img src='img/millstone.svg' height='250px'>
-        <p class='blurb'>
-          <span class='toptext'>MILLSTONE</span> is a distributed 
+      <div class="jumbotron">
+        <img src='img/millstone2.svg' height='250px'>
+        <p class="lead"><b>Millstone</b> is a distributed 
           <b>bioinformatics software platform</b> designed to facilitate 
           <b>genome engineering for synthetic biology</b>. Automate iterative
           design, analysis, and debugging for projects involving <b>hundreds of 
-          bacterial genomes.</b></p>
+          bacterial genomes.</b></p></p>
+        <div class='btn-toolbar'>
+          <a class="btn btn-lg btn-info" href="#" role="button">Try our Amazon AWS Demo</a>
+          <a class="btn btn-lg btn-success" href="#" role="button" data-target="#betaTest" data-toggle="modal">Become a beta tester!</a>
+        </div>
       </div>
 
-      <div class="row">
-        <div class="box">
-          <div class="col-lg-12">
-            <div class='subtitle'><h2>ENABLING SYNTHETIC BIOLOGY</h2></div>
-              <h3>What is synthetic biology?</h3>           
-              <p>
-              Synthetic biology is the design and construction of biological
+      <div class="row marketing">
+        <div class="col-lg-6">
+          <h4>What is synthetic biology?</h4>
+          <p>Synthetic biology is the design and construction of biological
               devices and systems for useful purposes. These designer
               organisms can be harnessed to produce biofuels, drugs,
               nanomaterials, and other value-added chemicals, or act as living
               nano-scale platforms for diagnostics and drug delivery
-              applications.
-              </p>
+              applications.</p>
 
-              <hr>
-              <h3>Why couldn't we do this before?</h3>
-              <img src='img/mage-cage.png' style='border-radius:10px; width:400px; float: left; margin:0.5em;'>
+          <h4>Why couldn't we do this before?</h4>
+              <img src='img/mage-cage.png' style='border-radius:10px; width:300px; float: left; margin:0.5em;'>
               <p>
 
               In the past, biological engineers have been limited to 
@@ -61,9 +70,12 @@
               altered or even purely synthetic bacterial genomes. 
 
             </p>
-              <hr>
-              <h3>How does Millstone fit in?</h3>
-              <img src='img/c321d.png' style='border-radius:10px; width:300px; float: left; margin:0.5em;'>
+
+        </div>
+
+        <div class="col-lg-6">
+          <h4>How does Millstone fit in?</h4>
+                        <img src='img/c321d.png' style='border-radius:10px; width:300px; float: left; margin:0.5em;'>
             <p>
               Now that we can read and write DNA at an unprecendented scale, there
               is a pressing need for analytical tools to make sense of this
@@ -82,88 +94,48 @@
               Millstone can then help design additional changes or revert
               existing undesired ones, iteratively engineering these genomes
               for useful purposes.
-
-            </p>
-            <div class="clearboth">&nbsp;</div>
-
-          </div>
         </div>
       </div>
 
-<!--       <div class="row">
-        <div class="box">
-          <div class="col-lg-12">
-            <div class='subtitle'><h2>THE PIPELINE</h2></div>
-            <hr class="visible-xs">
-
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Curabitur pharetra turpis id mauris fermentum interdum. Ut ac
-              placerat augue. Suspendisse non sodales est, vitae auctor justo.
-              Aliquam erat volutpat. Donec ornare ullamcorper turpis nec
-              tempor. Quisque congue fermentum lorem. Suspendisse ut nisi
-              urna. Ut sed orci non lorem sodales scelerisque. Nam iaculis
-              tortor a leo hendrerit luctus. Proin adipiscing enim eget sem
-              condimentum, eu dignissim enim pharetra. Aenean eu luctus metus,
-              a pellentesque justo. Aliquam vitae sagittis ligula. Mauris
-              ultricies nisl mi, sed imperdiet enim ullamcorper ut. Curabitur
-              enim lacus, scelerisque eu sapien vel, mattis aliquam tortor.
-            </p>
-            <p>
-              Vestibulum fringilla, erat vitae consectetur accumsan, purus est
-              elementum ipsum, et tempor sapien mi tempor enim. Vestibulum
-              tincidunt eros arcu. Curabitur leo velit, faucibus et commodo
-              vel, porta sed erat. Pellentesque quam turpis, tempus id sapien
-              eu, sollicitudin condimentum diam. Sed sed vestibulum turpis.
-              Pellentesque dignissim scelerisque viverra. Donec posuere et
-              libero ut vehicula.
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="box">
-          <div class="col-lg-12">
-            <div class='subtitle'><h2>ITERATIVE ANALYSIS AND DEBUGGING</h2></div>
-            <hr class="visible-xs">
-
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Curabitur pharetra turpis id mauris fermentum interdum. Ut ac
-              placerat augue. Suspendisse non sodales est, vitae auctor justo.
-              Aliquam erat volutpat. Donec ornare ullamcorper turpis nec
-              tempor. Quisque congue fermentum lorem. Suspendisse ut nisi
-              urna. Ut sed orci non lorem sodales scelerisque. Nam iaculis
-              tortor a leo hendrerit luctus. Proin adipiscing enim eget sem
-              condimentum, eu dignissim enim pharetra. Aenean eu luctus metus,
-              a pellentesque justo. Aliquam vitae sagittis ligula. Mauris
-              ultricies nisl mi, sed imperdiet enim ullamcorper ut. Curabitur
-              enim lacus, scelerisque eu sapien vel, mattis aliquam tortor.
-            </p>
-            <p>
-              Vestibulum fringilla, erat vitae consectetur accumsan, purus est
-              elementum ipsum, et tempor sapien mi tempor enim. Vestibulum
-              tincidunt eros arcu. Curabitur leo velit, faucibus et commodo
-              vel, porta sed erat. Pellentesque quam turpis, tempus id sapien
-              eu, sollicitudin condimentum diam. Sed sed vestibulum turpis.
-              Pellentesque dignissim scelerisque viverra. Donec posuere et
-              libero ut vehicula.
-            </p>
-          </div>
-        </div>
-      </div> -->
-
-    </div><!-- /.container -->
-    
-    <footer>
-        <div class="box small text-center">
-
-            <h6>Designed and built by <a href="http://www.dbgoodman.com/" target="_blank">Daniel Goodman</a>, <a href="http://www.glebkuznetsov.com/" target="_blank">Gleb Kuznetsov</a>, and <a href="http://www.linkedin.com/in/marclajoie" target="_blank">Marc Lajoie</a>.</h6>
+      <div class="footer">
+        
+            <h6>Designed and built by <a href="http://www.dbgoodman.com/" target="_blank">Daniel Goodman</a>, <a href="http://www.glebkuznetsov.com/" target="_blank">Gleb Kuznetsov</a>, Kevin Chen, Changping Chen, and <a href="http://www.linkedin.com/in/marclajoie" target="_blank">Marc Lajoie</a>.</h6>
             <h6><a href="http://arep.med.harvard.edu/" target="_blank">Church Lab</a></h6>
             <h6><a href="http://genetics.med.harvard.edu/" target="_blank">Harvard Medical School Department of Genetics</a></h6>
-            <h6>Copyright 2013</h6>
+            <h6>Copyright 2014</h6>
+      </div>
+
+    </div> <!-- /container -->
+
+    <!-- Modal -->
+    <div class="modal fade" id="betaTest" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <h3 class="modal-title" id="myModalLabel">Become a beta tester!</h4>
+          </div>
+          <div class="modal-body">
+            <p class='lead'>Want to use Millstone in your Microbial Genome Sequencing or Engineering Project?</p>
+
+            <p>If you have a project that involves comparing
+            variants among large numbers of microbial genomes (less than 20Mb),
+            we'd love you to try Millstone.</p>
+
+            <p>Millstone is easily scalable and parallelizable from 3 to 300
+            genomes, and can be deployed to a local cluster or the cloud 
+            via Amazon AWS.</p>
+          </div>
+          <div class="modal-footer">
+            <p class='h3'>Please email <a href='mailto:millstonebio@gmail.com'>millstonebio@gmail.com</a>.</p>
+          </div>
         </div>
-    </footer>
+      </div>
+    </div>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
   </body>
 </html>

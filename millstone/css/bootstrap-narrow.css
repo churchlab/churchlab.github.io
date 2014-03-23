@@ -3,6 +3,10 @@ body {
   padding-top: 20px;
   padding-bottom: 20px;
   background: #ffffff;
+  background: url(../img/millstone-bottom-small.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  margin-bottom: 300px;
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
@@ -30,6 +34,10 @@ body {
   padding-top: 19px;
   color: #777;
   border-top: 1px solid #e5e5e5;
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.9)
 }
 
 /* Customize container */

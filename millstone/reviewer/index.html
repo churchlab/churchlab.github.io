@@ -1,81 +1,152 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta content="text/html; charset=utf-8" http-equiv="content-type">
-    <style type="text/css">
-    ol{margin:0;padding:0}table td,table th{padding:0}.c1{orphans:2;widows:2;height:11pt}.c9{background-color:#ffffff;max-width:468pt;padding:72pt 72pt 72pt 72pt}.c2{margin-left:36pt;orphans:2;widows:2}.c3{color:inherit;text-decoration:inherit}.c0{color:#1155cc;text-decoration:underline}.c5{orphans:2;widows:2}.c4{font-style:italic}.c7{font-family:"Courier New"}.c8{text-indent:36pt}.c6{page-break-after:avoid}.title{padding-top:0pt;color:#000000;font-size:26pt;padding-bottom:3pt;font-family:"Arial";line-height:1.15;page-break-after:avoid;orphans:2;widows:2;text-align:left}.subtitle{padding-top:0pt;color:#666666;font-size:15pt;padding-bottom:16pt;font-family:"Arial";line-height:1.15;page-break-after:avoid;orphans:2;widows:2;text-align:left}li{color:#000000;font-size:11pt;font-family:"Arial"}p{margin:0;color:#000000;font-size:11pt;font-family:"Arial"}h1{padding-top:20pt;color:#000000;font-size:20pt;padding-bottom:6pt;font-family:"Arial";line-height:1.15;page-break-after:avoid;orphans:2;widows:2;text-align:left}h2{padding-top:18pt;color:#000000;font-size:16pt;padding-bottom:6pt;font-family:"Arial";line-height:1.15;page-break-after:avoid;orphans:2;widows:2;text-align:left}h3{padding-top:16pt;color:#434343;font-size:14pt;padding-bottom:4pt;font-family:"Arial";line-height:1.15;page-break-after:avoid;orphans:2;widows:2;text-align:left}h4{padding-top:14pt;color:#666666;font-size:12pt;padding-bottom:4pt;font-family:"Arial";line-height:1.15;page-break-after:avoid;orphans:2;widows:2;text-align:left}h5{padding-top:12pt;color:#666666;font-size:11pt;padding-bottom:4pt;font-family:"Arial";line-height:1.15;page-break-after:avoid;orphans:2;widows:2;text-align:left}h6{padding-top:12pt;color:#666666;font-size:11pt;padding-bottom:4pt;font-family:"Arial";line-height:1.15;page-break-after:avoid;font-style:italic;orphans:2;widows:2;text-align:left}
-    </style>
-    <title></title>
+  <meta content="text/html; charset=utf-8" http-equiv="content-type">
+  <style type="text/css">
+    .lst-kix_wvt1lf1zs5ua-5>li{counter-increment:lst-ctn-kix_wvt1lf1zs5ua-5}.lst-kix_tpl4riicfb7-5>li{counter-increment:lst-ctn-kix_tpl4riicfb7-5}ol.lst-kix_wvt1lf1zs5ua-1.start{counter-reset:lst-ctn-kix_wvt1lf1zs5ua-1 0}ol.lst-kix_wvt1lf1zs5ua-4.start{counter-reset:lst-ctn-kix_wvt1lf1zs5ua-4 0}.lst-kix_wvt1lf1zs5ua-4>li{counter-increment:lst-ctn-kix_wvt1lf1zs5ua-4}ol.lst-kix_l5k0zmz3ecev-2.start{counter-reset:lst-ctn-kix_l5k0zmz3ecev-2 0}ol.lst-kix_tpl4riicfb7-1.start{counter-reset:lst-ctn-kix_tpl4riicfb7-1 0}ol.lst-kix_l5k0zmz3ecev-5.start{counter-reset:lst-ctn-kix_l5k0zmz3ecev-5 0}.lst-kix_tpl4riicfb7-7>li{counter-increment:lst-ctn-kix_tpl4riicfb7-7}ol.lst-kix_wvt1lf1zs5ua-6.start{counter-reset:lst-ctn-kix_wvt1lf1zs5ua-6 0}.lst-kix_wvt1lf1zs5ua-3>li{counter-increment:lst-ctn-kix_wvt1lf1zs5ua-3}ol.lst-kix_l5k0zmz3ecev-8.start{counter-reset:lst-ctn-kix_l5k0zmz3ecev-8 0}.lst-kix_l5k0zmz3ecev-7>li{counter-increment:lst-ctn-kix_l5k0zmz3ecev-7}.lst-kix_tpl4riicfb7-4>li{counter-increment:lst-ctn-kix_tpl4riicfb7-4}.lst-kix_wvt1lf1zs5ua-6>li{counter-increment:lst-ctn-kix_wvt1lf1zs5ua-6}.lst-kix_wvt1lf1zs5ua-8>li{counter-increment:lst-ctn-kix_wvt1lf1zs5ua-8}ol.lst-kix_l5k0zmz3ecev-1.start{counter-reset:lst-ctn-kix_l5k0zmz3ecev-1 0}.lst-kix_wvt1lf1zs5ua-2>li{counter-increment:lst-ctn-kix_wvt1lf1zs5ua-2}.lst-kix_l5k0zmz3ecev-6>li{counter-increment:lst-ctn-kix_l5k0zmz3ecev-6}ol.lst-kix_wvt1lf1zs5ua-7.start{counter-reset:lst-ctn-kix_wvt1lf1zs5ua-7 0}ol.lst-kix_l5k0zmz3ecev-7.start{counter-reset:lst-ctn-kix_l5k0zmz3ecev-7 0}ol.lst-kix_tpl4riicfb7-4.start{counter-reset:lst-ctn-kix_tpl4riicfb7-4 0}ol.lst-kix_l5k0zmz3ecev-0.start{counter-reset:lst-ctn-kix_l5k0zmz3ecev-0 0}.lst-kix_tpl4riicfb7-6>li{counter-increment:lst-ctn-kix_tpl4riicfb7-6}.lst-kix_tpl4riicfb7-3>li{counter-increment:lst-ctn-kix_tpl4riicfb7-3}ol.lst-kix_wvt1lf1zs5ua-2.start{counter-reset:lst-ctn-kix_wvt1lf1zs5ua-2 0}.lst-kix_tpl4riicfb7-0>li{counter-increment:lst-ctn-kix_tpl4riicfb7-0}.lst-kix_l5k0zmz3ecev-0>li{counter-increment:lst-ctn-kix_l5k0zmz3ecev-0}ol.lst-kix_l5k0zmz3ecev-8{list-style-type:none}ol.lst-kix_l5k0zmz3ecev-6{list-style-type:none}ol.lst-kix_l5k0zmz3ecev-7{list-style-type:none}ol.lst-kix_l5k0zmz3ecev-4{list-style-type:none}ol.lst-kix_l5k0zmz3ecev-5{list-style-type:none}ol.lst-kix_l5k0zmz3ecev-2{list-style-type:none}ol.lst-kix_l5k0zmz3ecev-3{list-style-type:none}ol.lst-kix_tpl4riicfb7-3.start{counter-reset:lst-ctn-kix_tpl4riicfb7-3 0}ol.lst-kix_l5k0zmz3ecev-0{list-style-type:none}ol.lst-kix_l5k0zmz3ecev-1{list-style-type:none}ol.lst-kix_tpl4riicfb7-2.start{counter-reset:lst-ctn-kix_tpl4riicfb7-2 0}ol.lst-kix_wvt1lf1zs5ua-8.start{counter-reset:lst-ctn-kix_wvt1lf1zs5ua-8 0}ol.lst-kix_l5k0zmz3ecev-6.start{counter-reset:lst-ctn-kix_l5k0zmz3ecev-6 0}ol.lst-kix_tpl4riicfb7-8{list-style-type:none}ol.lst-kix_tpl4riicfb7-7{list-style-type:none}.lst-kix_l5k0zmz3ecev-3>li{counter-increment:lst-ctn-kix_l5k0zmz3ecev-3}ol.lst-kix_tpl4riicfb7-6{list-style-type:none}ol.lst-kix_tpl4riicfb7-5{list-style-type:none}ol.lst-kix_wvt1lf1zs5ua-1{list-style-type:none}ol.lst-kix_wvt1lf1zs5ua-0{list-style-type:none}ol.lst-kix_tpl4riicfb7-0{list-style-type:none}ol.lst-kix_wvt1lf1zs5ua-3{list-style-type:none}ol.lst-kix_wvt1lf1zs5ua-2{list-style-type:none}ol.lst-kix_wvt1lf1zs5ua-5{list-style-type:none}ol.lst-kix_wvt1lf1zs5ua-4{list-style-type:none}ol.lst-kix_tpl4riicfb7-4{list-style-type:none}ol.lst-kix_wvt1lf1zs5ua-7{list-style-type:none}ol.lst-kix_tpl4riicfb7-3{list-style-type:none}ol.lst-kix_wvt1lf1zs5ua-6{list-style-type:none}ol.lst-kix_tpl4riicfb7-2{list-style-type:none}ol.lst-kix_tpl4riicfb7-1{list-style-type:none}ol.lst-kix_wvt1lf1zs5ua-8{list-style-type:none}.lst-kix_l5k0zmz3ecev-0>li:before{content:"" counter(lst-ctn-kix_l5k0zmz3ecev-0,decimal) ". "}.lst-kix_l5k0zmz3ecev-1>li:before{content:"" counter(lst-ctn-kix_l5k0zmz3ecev-1,lower-latin) ". "}.lst-kix_tpl4riicfb7-1>li{counter-increment:lst-ctn-kix_tpl4riicfb7-1}ol.lst-kix_tpl4riicfb7-5.start{counter-reset:lst-ctn-kix_tpl4riicfb7-5 0}.lst-kix_wvt1lf1zs5ua-0>li{counter-increment:lst-ctn-kix_wvt1lf1zs5ua-0}ol.lst-kix_wvt1lf1zs5ua-0.start{counter-reset:lst-ctn-kix_wvt1lf1zs5ua-0 0}.lst-kix_l5k0zmz3ecev-4>li{counter-increment:lst-ctn-kix_l5k0zmz3ecev-4}.lst-kix_l5k0zmz3ecev-1>li{counter-increment:lst-ctn-kix_l5k0zmz3ecev-1}ol.lst-kix_tpl4riicfb7-8.start{counter-reset:lst-ctn-kix_tpl4riicfb7-8 0}ol.lst-kix_wvt1lf1zs5ua-3.start{counter-reset:lst-ctn-kix_wvt1lf1zs5ua-3 0}ol.lst-kix_tpl4riicfb7-7.start{counter-reset:lst-ctn-kix_tpl4riicfb7-7 0}.lst-kix_tpl4riicfb7-2>li{counter-increment:lst-ctn-kix_tpl4riicfb7-2}.lst-kix_tpl4riicfb7-8>li{counter-increment:lst-ctn-kix_tpl4riicfb7-8}.lst-kix_l5k0zmz3ecev-6>li:before{content:"" counter(lst-ctn-kix_l5k0zmz3ecev-6,decimal) ". "}.lst-kix_l5k0zmz3ecev-5>li:before{content:"" counter(lst-ctn-kix_l5k0zmz3ecev-5,lower-roman) ". "}.lst-kix_tpl4riicfb7-7>li:before{content:"" counter(lst-ctn-kix_tpl4riicfb7-7,lower-latin) ". "}ol.lst-kix_l5k0zmz3ecev-4.start{counter-reset:lst-ctn-kix_l5k0zmz3ecev-4 0}.lst-kix_wvt1lf1zs5ua-2>li:before{content:"" counter(lst-ctn-kix_wvt1lf1zs5ua-2,lower-roman) ". "}.lst-kix_tpl4riicfb7-6>li:before{content:"" counter(lst-ctn-kix_tpl4riicfb7-6,decimal) ". "}.lst-kix_l5k0zmz3ecev-3>li:before{content:"" counter(lst-ctn-kix_l5k0zmz3ecev-3,decimal) ". "}.lst-kix_wvt1lf1zs5ua-0>li:before{content:"" counter(lst-ctn-kix_wvt1lf1zs5ua-0,decimal) ". "}.lst-kix_wvt1lf1zs5ua-1>li:before{content:"" counter(lst-ctn-kix_wvt1lf1zs5ua-1,lower-latin) ". "}.lst-kix_wvt1lf1zs5ua-1>li{counter-increment:lst-ctn-kix_wvt1lf1zs5ua-1}.lst-kix_l5k0zmz3ecev-2>li:before{content:"" counter(lst-ctn-kix_l5k0zmz3ecev-2,lower-roman) ". "}.lst-kix_l5k0zmz3ecev-4>li:before{content:"" counter(lst-ctn-kix_l5k0zmz3ecev-4,lower-latin) ". "}.lst-kix_tpl4riicfb7-8>li:before{content:"" counter(lst-ctn-kix_tpl4riicfb7-8,lower-roman) ". "}.lst-kix_l5k0zmz3ecev-8>li{counter-increment:lst-ctn-kix_l5k0zmz3ecev-8}.lst-kix_tpl4riicfb7-1>li:before{content:"" counter(lst-ctn-kix_tpl4riicfb7-1,lower-latin) ". "}.lst-kix_l5k0zmz3ecev-5>li{counter-increment:lst-ctn-kix_l5k0zmz3ecev-5}.lst-kix_tpl4riicfb7-3>li:before{content:"" counter(lst-ctn-kix_tpl4riicfb7-3,decimal) ". "}.lst-kix_l5k0zmz3ecev-2>li{counter-increment:lst-ctn-kix_l5k0zmz3ecev-2}.lst-kix_tpl4riicfb7-2>li:before{content:"" counter(lst-ctn-kix_tpl4riicfb7-2,lower-roman) ". "}.lst-kix_tpl4riicfb7-5>li:before{content:"" counter(lst-ctn-kix_tpl4riicfb7-5,lower-roman) ". "}.lst-kix_wvt1lf1zs5ua-7>li{counter-increment:lst-ctn-kix_wvt1lf1zs5ua-7}.lst-kix_wvt1lf1zs5ua-3>li:before{content:"" counter(lst-ctn-kix_wvt1lf1zs5ua-3,decimal) ". "}.lst-kix_tpl4riicfb7-4>li:before{content:"" counter(lst-ctn-kix_tpl4riicfb7-4,lower-latin) ". "}ol.lst-kix_tpl4riicfb7-6.start{counter-reset:lst-ctn-kix_tpl4riicfb7-6 0}ol.lst-kix_l5k0zmz3ecev-3.start{counter-reset:lst-ctn-kix_l5k0zmz3ecev-3 0}.lst-kix_l5k0zmz3ecev-7>li:before{content:"" counter(lst-ctn-kix_l5k0zmz3ecev-7,lower-latin) ". "}.lst-kix_wvt1lf1zs5ua-4>li:before{content:"" counter(lst-ctn-kix_wvt1lf1zs5ua-4,lower-latin) ". "}.lst-kix_wvt1lf1zs5ua-5>li:before{content:"" counter(lst-ctn-kix_wvt1lf1zs5ua-5,lower-roman) ". "}ol.lst-kix_wvt1lf1zs5ua-5.start{counter-reset:lst-ctn-kix_wvt1lf1zs5ua-5 0}.lst-kix_l5k0zmz3ecev-8>li:before{content:"" counter(lst-ctn-kix_l5k0zmz3ecev-8,lower-roman) ". "}.lst-kix_wvt1lf1zs5ua-6>li:before{content:"" counter(lst-ctn-kix_wvt1lf1zs5ua-6,decimal) ". "}ol.lst-kix_tpl4riicfb7-0.start{counter-reset:lst-ctn-kix_tpl4riicfb7-0 0}.lst-kix_wvt1lf1zs5ua-8>li:before{content:"" counter(lst-ctn-kix_wvt1lf1zs5ua-8,lower-roman) ". "}.lst-kix_wvt1lf1zs5ua-7>li:before{content:"" counter(lst-ctn-kix_wvt1lf1zs5ua-7,lower-latin) ". "}.lst-kix_tpl4riicfb7-0>li:before{content:"" counter(lst-ctn-kix_tpl4riicfb7-0,decimal) ". "}ol{margin:0;padding:0}table td,table th{padding:0}.c9{background-color:#ffffff;max-width:468pt;padding:72pt 72pt 72pt 72pt}.c2{color:#1155cc;text-decoration:underline}.c0{orphans:2;widows:2}.c7{color:inherit;text-decoration:inherit}.c8{font-style:italic}.c11{text-indent:36pt}.c5{text-decoration:underline}.c3{page-break-after:avoid}.c1{height:11pt}.c10{text-align:center}.c6{font-family:"Courier New"}.c4{margin-left:36pt}.title{padding-top:0pt;color:#000000;font-size:26pt;padding-bottom:3pt;font-family:"Arial";line-height:1.15;page-break-after:avoid;orphans:2;widows:2;text-align:left}.subtitle{padding-top:0pt;color:#666666;font-size:15pt;padding-bottom:16pt;font-family:"Arial";line-height:1.15;page-break-after:avoid;orphans:2;widows:2;text-align:left}li{color:#000000;font-size:11pt;font-family:"Arial"}p{margin:0;color:#000000;font-size:11pt;font-family:"Arial"}h1{padding-top:20pt;color:#000000;font-size:20pt;padding-bottom:6pt;font-family:"Arial";line-height:1.15;page-break-after:avoid;orphans:2;widows:2;text-align:left}h2{padding-top:18pt;color:#000000;font-size:16pt;padding-bottom:6pt;font-family:"Arial";line-height:1.15;page-break-after:avoid;orphans:2;widows:2;text-align:left}h3{padding-top:16pt;color:#434343;font-size:14pt;padding-bottom:4pt;font-family:"Arial";line-height:1.15;page-break-after:avoid;orphans:2;widows:2;text-align:left}h4{padding-top:14pt;color:#666666;font-size:12pt;padding-bottom:4pt;font-family:"Arial";line-height:1.15;page-break-after:avoid;orphans:2;widows:2;text-align:left}h5{padding-top:12pt;color:#666666;font-size:11pt;padding-bottom:4pt;font-family:"Arial";line-height:1.15;page-break-after:avoid;orphans:2;widows:2;text-align:left}h6{padding-top:12pt;color:#666666;font-size:11pt;padding-bottom:4pt;font-family:"Arial";line-height:1.15;page-break-after:avoid;font-style:italic;orphans:2;widows:2;text-align:left}
+  </style>
+  <title></title>
 </head>
 <body class="c9">
-    <p class="c5 c6 title" id="h.uamh26pbqrgu"><span>Example Views on the Datasets Presented in
-    Millstone</span></p>
-    <p class="c1"><span></span></p>
-    <p class="c5"><span>Demo Machine Front Page, listing the four projects.</span></p>
-    <p class="c5"><span class="c0"><a class="c3" target="_blank" href=
-    "http://ec2-54-165-168-67.compute-1.amazonaws.com/">Link</a></span></p>
-    <h2 class="c5 c6" id="h.ltocpvd6z3z3"><span>Tenaillon et. al. - Adaptive Laboratory
-    Evolution</span></h2>
-    <p class="c1"><span></span></p>
-    <p class="c5"><span>1. Show the list of Tenaillon samples as well as associated phenotype
-    information.</span></p>
-    <p class="c5"><span class="c0"><a class="c3" target="_blank" href=
-    "http://ec2-54-165-168-67.compute-1.amazonaws.com/projects/11a66ac5/samples">Link</a></span></p>
-    <p class="c1"><span></span></p>
-    <p class="c5"><span>2. &nbsp;List all variants which meet the Tenaillon variant calling
-    threshold. These variants were saved into a variant set called &ldquo;Tenaillon Strong
-    Evidence&rdquo; for further querying. The query string used to generate this set is:</span></p>
-    <p class="c2"><span class="c7">(AF &gt; 0.7 &amp; DP &gt; 5) | INFO_METHOD == GRAPH_WALK |
-    INFO_METHOD == COVERAGE | INFO_METHOD == SV_GRAPH_WALK</span></p>
-    <p class="c5"><span class="c0"><a class="c3" target="_blank" href=
-    "http://ec2-54-165-168-67.compute-1.amazonaws.com/projects/11a66ac5/analyze/1956010f/variants?filter=VARIANT_SET_UID%3D1831bdd0&melt=0">
-    Link</a></span></p>
-    <p class="c1"><span></span></p>
-    <p class="c5"><span>3. List of Genes enriched for mutations across all lines. Compare with
-    Table 1 from Tenaillon</span> <span class="c4">et al., Science</span>
-    <span>2012</span><span class="c4">.</span></p>
-    <p class="c5"><span class="c0"><a class="c3" target="_blank" href=
-    "http://ec2-54-165-168-67.compute-1.amazonaws.com/projects/11a66ac5/analyze/1956010f/genes">Link</a></span></p>
-    <p class="c1"><span></span></p>
-    <p class="c5"><span>4</span><span>.</span> <span class="c4">y</span><span class="c4">baL</span>
-    <span>is an inner membrane protein that is highly enriched for mutations across the clones (as
-    seen in the gene list above).</span> <span>&nbsp;This query lists all mutations in</span>
-    <span class="c4">ybal</span> <span>across all evolved lines</span></p>
-    <p class="c5 c8"><span class="c7">INFO_EFF_GENE=ybaL &amp; AF &gt; 0.7 &amp; INFO_EFF_EFFECT !=
-    &#39;None&#39;</span></p>
-    <p class="c5"><span class="c0"><a class="c3" target="_blank" href=
-    "http://ec2-54-165-168-67.compute-1.amazonaws.com/projects/11a66ac5/analyze/1956010f/variants?filter=INFO_EFF_GENE%3DybaL%20%26%20AF%20%3E%200.7%20%26%20INFO_EFF_EFFECT%20!%3D%20%27None%27&melt=0">
-    Link</a></span></p>
-    <p class="c1"><span></span></p>
-    <p class="c5"><span>5. You can sort this list by the column &ldquo;# Samples&rdquo;. The top
-    variant occurs in 7 samples. If you click the magnifying glass (see image below) you can see
-    all lines which have this variant.</span></p>
-    <p class="c5"><span style=
-    "overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 624.00px; height: 92.00px;">
-    <img alt="" src="images/image01.png" style=
-    "width: 624.00px; height: 92.00px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);"
-    title=""></span></p>
-    <p class="c1"><span></span></p>
-    <p class="c5"><span>6. Jbrowse can show you all unique mutations in the</span> <span class=
-    "c4">ybal</span><span>&nbsp;gene. In addition to the link below, this view can be reached by
-    selecting one of the</span> <span style=
-    "overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 21.00px; height: 20.00px;">
-    <img alt="" src="images/image00.png" style=
-    "width: 21.00px; height: 20.00px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);"
-    title=""></span><span>&nbsp;icons and zooming out to the whole</span> <span class=
-    "c4">ybaL</span><span>&nbsp;gene.</span></p>
-    <p class="c5"><span class="c0"><a class="c3" target="_blank" href=
-    "http://ec2-54-165-168-67.compute-1.amazonaws.com/jbrowse/index.html?loc=CP000819.1%3A463481..485980&tracks=DNA%2Cgbk%2C1956010f_SNPEFF_VCF&data=%2Fjbrowse%2Fgd_data%2Fprojects%2F11a66ac5%2Fref_genomes%2F92c717c3%2Fjbrowse&highlight=">
-    Link</a></span></p>
-    <p class="c1"><span></span></p>
-    <p class="c5"><span>7. Finally, Jbrowse can be used to view structural variants and confirm
-    them visually. Here is the coverage data for three samples, one with a ~3.5kb deletion called
-    by millstone, compared to the ancestor strain and another evolved line without a
-    deletion.</span></p>
-    <p class="c5"><span class="c0"><a class="c3" target="_blank" href=
-    "http://ec2-54-165-168-67.compute-1.amazonaws.com/jbrowse/index.html?loc=CP000819.1%3A1302117..1306757&tracks=DNA%2Cgbk%2C1670a17a_BWA_BAM_COVERAGE_1956010f%2Ca0673124_BWA_BAM_COVERAGE_1956010f%2C9d38265d_BWA_BAM_COVERAGE_1956010f&data=%2Fjbrowse%2Fgd_data%2Fprojects%2F11a66ac5%2Fref_genomes%2F92c717c3%2Fjbrowse&highlight=">
-    Link</a></span></p>
-    <p class="c1"><span></span></p>
-    <p class="c1"><span></span></p>
+  <p class="c0 c3 title" id="h.uamh26pbqrgu"><span>Example Views on the Datasets Presented in
+  Millstone</span></p>
+  <p class="c0 c1"><span></span></p>
+  <p class="c0"><span>Demo Machine Front Page, listing the four projects.</span></p>
+  <p class="c0"><span class="c2"><a class="c7" target='_blank' href=
+  "http://ec2-54-165-168-67.compute-1.amazonaws.com/">
+  Link</a></span></p>
+  <h2 class="c0 c3" id="h.ltocpvd6z3z3"><span>Tenaillon</span> <span class="c8">et.
+  al.</span><span>&nbsp;- Adaptive Laboratory Evolution</span></h2>
+  <p class="c0 c1"><span></span></p>
+  <p class="c0"><span>1. Show the list of Tenaillon samples and associated phenotype
+  information.</span></p>
+  <p class="c0"><span class="c2"><a class="c7" target='_blank' href=
+  "http://ec2-54-165-168-67.compute-1.amazonaws.com/projects/11a66ac5/samples">
+  Link</a></span></p>
+  <p class="c0 c1"><span></span></p>
+  <p class="c0"><span>2. &nbsp;List all variants which meet the Tenaillon variant-calling
+  threshold. These variants were saved into a variant set called &ldquo;Tenaillon Strong
+  Evidence&rdquo; for further querying. The query string used to generate this set is:</span></p>
+  <p class="c0 c4"><span class="c6">(AF &gt; 0.7 &amp; DP &gt; 5) | INFO_METHOD == GRAPH_WALK |
+  INFO_METHOD == COVERAGE | INFO_METHOD == SV_GRAPH_WALK</span></p>
+  <p class="c0"><span class="c2"><a class="c7" target='_blank' href=
+  "http://ec2-54-165-168-67.compute-1.amazonaws.com/projects/11a66ac5/analyze/1956010f/variants?filter%3DVARIANT_SET_UID%253D1831bdd0%26melt%3D0">
+  Link</a></span></p>
+  <p class="c0 c1"><span></span></p>
+  <p class="c0"><span>3. List of Genes enriched for mutations across all lines. Compare with Table
+  1 from Tenaillon</span> <span class="c8">et al., Science</span> <span>2012</span><span class=
+  "c8">.</span></p>
+  <p class="c0"><span class="c2"><a class="c7" target='_blank' href=
+  "http://ec2-54-165-168-67.compute-1.amazonaws.com/projects/11a66ac5/analyze/1956010f/genes">
+  Link</a></span></p>
+  <p class="c0 c1"><span></span></p>
+  <p class="c0"><span>4</span><span>.</span> <span class="c8">y</span><span class="c8">baL</span>
+  <span>is an inner membrane protein that is highly enriched for mutations across the clones (as
+  seen in the gene list above).</span> <span>&nbsp;This query lists all mutations in</span>
+  <span class="c8">ybal</span> <span>across all evolved lines</span></p>
+  <p class="c0 c11"><span class="c6">INFO_EFF_GENE=ybaL &amp; AF &gt; 0.7 &amp; INFO_EFF_EFFECT !=
+  &#39;None&#39;</span></p>
+  <p class="c0"><span class="c2"><a class="c7" target='_blank' href=
+  "http://ec2-54-165-168-67.compute-1.amazonaws.com/projects/11a66ac5/analyze/1956010f/variants?filter%3DINFO_EFF_GENE%253DybaL%2520%2526%2520AF%2520%253E%25200.7%2520%2526%2520INFO_EFF_EFFECT%2520!%253D%2520%2527None%2527%26melt%3D0">
+  Link</a></span></p>
+  <p class="c0 c1"><span></span></p>
+  <p class="c0"><span>5. You can sort this list by the column &ldquo;# Samples&rdquo;. The top
+  variant occurs in 7 samples. If you click the magnifying glass (see image below) you can see all
+  lines which have this variant.</span></p>
+  <p class="c0"><span style=
+  "overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 624.00px; height: 92.00px;">
+  <img alt="" src="images/image04.png" style=
+  "width: 624.00px; height: 92.00px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);"
+  title=""></span></p>
+  <p class="c0 c1"><span></span></p>
+  <p class="c0"><span>6. Jbrowse can show you all unique mutations in the</span> <span class=
+  "c8">ybal</span><span>&nbsp;gene. In addition to the link below, this view can be reached by
+  selecting one of the</span> <span style=
+  "overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 21.00px; height: 20.00px;">
+  <img alt="" src="images/image01.png" style=
+  "width: 21.00px; height: 20.00px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);"
+  title=""></span><span>&nbsp;icons and zooming out to the whole</span> <span class=
+  "c8">ybaL</span><span>&nbsp;gene.</span></p>
+  <p class="c0"><span class="c2"><a class="c7" target='_blank' href=
+  "http://ec2-54-165-168-67.compute-1.amazonaws.com/jbrowse/index.html?loc=CP000819.1%3A463481..485980&tracks=DNA%2Cgbk%2C1956010f_SNPEFF_VCF&data=%2Fjbrowse%2Fgd_data%2Fprojects%2F11a66ac5%2Fref_genomes%2F92c717c3%2Fjbrowse&highlight=">
+  Link</a></span></p>
+  <p class="c0 c1"><span></span></p>
+  <p class="c0"><span>7. Finally, Jbrowse can be used to view structural variants and confirm them
+  visually. Here is the coverage data for three samples, one with a ~3.5kb deletion called by
+  millstone, compared to the ancestor strain and another evolved line without a
+  deletion.</span></p>
+  <p class="c0"><span class="c2"><a class="c7" target='_blank' href=
+  "http://ec2-54-165-168-67.compute-1.amazonaws.com/jbrowse/index.html?loc=CP000819.1%3A1302117..1306757&tracks=DNA%2Cgbk%2C1670a17a_BWA_BAM_COVERAGE_1956010f%2Ca0673124_BWA_BAM_COVERAGE_1956010f%2C9d38265d_BWA_BAM_COVERAGE_1956010f&data=%2Fjbrowse%2Fgd_data%2Fprojects%2F11a66ac5%2Fref_genomes%2F92c717c3%2Fjbrowse&highlight=">
+  Link</a></span></p>
+  <h2 class="c0 c3" id="h.rj05zuy6fju3"><span>Lajoie</span> <span class="c8">et
+  al.</span><span>&nbsp;- Constructing the 63 codon GRO Strain</span></h2>
+  <p class="c0 c1"><span></span></p>
+  <p class="c0"><span>1. A list of</span><span>&nbsp;all designed UAG-to-UAA mutations, in Variant
+  Set view.</span></p>
+  <p class="c0"><span class="c2"><a class="c7" target='_blank' href=
+  "http://ec2-54-165-168-67.compute-1.amazonaws.com/projects/b4cbc454/sets/7687c54e">
+  Link</a></span></p>
+  <p class="c0 c1"><span class="c5"></span></p>
+  <p class="c0"><span>2. After clicking the link above, from the &lsquo;Select action with
+  set&rsquo; button, you can design MAGE oligonucleotides for each variant from this set, to either
+  revert or create these mutations.</span> <span class="c8">This function is enabled in the demo,
+  you can download a .csv with the oligos to synthesize.</span></p>
+  <p class="c0 c10"><span style=
+  "overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 624.00px; height: 192.00px;">
+  <img alt="" src="images/image00.png" style=
+  "width: 624.00px; height: 192.00px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);"
+  title=""></span><span><br></span><span style=
+  "overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 309.73px; height: 262.50px;"><img alt=""
+  src="images/image02.png" style=
+  "width: 309.73px; height: 262.50px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);"
+  title=""></span></p>
+  <p class="c0"><span>3. List all variants which occur in the final strain, are not designed, and
+  have a high effect. These are candidates for reversion to fix any phenotype deficits.</span></p>
+  <p class="c0 c1"><span></span></p>
+  <p class="c0"><span class="c6">VARIANT_SET_UID=964875c3 &amp; SAMPLE = recoli_misq_c31_321D &amp;
+  (INFO_EFF_IMPACT = HIGH | INFO_EFF_IMPACT = MODERATE) &amp; INFO_EFF_EFFECT != None</span></p>
+  <p class="c0"><span class="c2"><a class="c7" target='_blank' href=
+  "http://ec2-54-165-168-67.compute-1.amazonaws.com/projects/b4cbc454/analyze/e0f7b0c1/variants?filter%3DVARIANT_SET_UID%253D964875c3%2520%2526%2520SAMPLE%2520%253D%2520recoli_misq_c31_321D%2520%2526%2520(INFO_EFF_IMPACT%2520%253D%2520HIGH%2520%257C%2520INFO_EFF_IMPACT%2520%253D%2520MODERATE)%2520%2526%2520INFO_EFF_EFFECT%2520!%253D%2520None%26melt%3D0">
+  Link</a></span></p>
+  <p class="c0 c1"><span class="c6"></span></p>
+  <p class="c0"><span>4. &nbsp;List of tolC deletions in various strains, toggled during negative
+  and positive selection during strain assembly.</span></p>
+  <p class="c0"><span class="c2"><a class="c7" target='_blank' href=
+  "http://ec2-54-165-168-67.compute-1.amazonaws.com/projects/b4cbc454/analyze/e0f7b0c1/variants?filter%3DINFO_METHOD%2520%253D%2520COVERAGE%2520%2526%2520POSITION%2520%253E%25203176000%2520%2526%2520POSITION%2520%253C%25203180000%26melt%3D1">
+  Link</a></span></p>
+  <p class="c0 c1"><span></span></p>
+  <h2 class="c0 c3" id="h.i5kamxed6v7e"><span>Kuznetsov</span> <span class="c8">et
+  al.</span><span>&nbsp;- Improving GRO Fitness</span></h2>
+  <p class="c0"><span>1. Download all called mutations across the clones into a .csv for downstream
+  analysis (e.g. in python or R) and linear modeling.</span></p>
+  <p class="c0"><span class="c2"><a class="c7" target='_blank' href=
+  "http://ec2-54-165-168-67.compute-1.amazonaws.com/projects/0995821d/sets/196d1c00">
+  Link</a></span><span>.</span></p>
+  <p class="c0"><span style=
+  "overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 240.04px; height: 154.50px;">
+  <img alt="" src="images/image03.png" style=
+  "width: 240.04px; height: 154.50px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);"
+  title=""></span></p>
+  <h2 class="c0 c3" id="h.xlv5bcma8p6v"><span>Mandell</span> <span class="c8">et
+  al.</span><span>&nbsp;- Biocontainment</span></h2>
+  <p class="c0 c1"><span></span></p>
+  <p class="c0"><span>1.</span> <span>All mutations in the tyrS gene across all clones. The tyrS
+  gene is shown as enriched in the Genes list as well.<br></span><span class="c2"><a class="c7"
+  target='_blank' href=
+  "http://ec2-54-165-168-67.compute-1.amazonaws.com/projects/d573fd9e/analyze/6a784bde/variants?filter%3DINFO_EFF_GENE%253DtyrS%26melt%3D0">Link.</a></span></p>
+  <p class="c0 c1"><span></span></p>
+  <p class="c0"><span>2. The user can examine the read alignments at the location of the</span>
+  <span class="c8">lon</span><span>&nbsp;mobile element insertion in JBrowse. An nsAA-dependent
+  clone is shown below the others for comparison, as in Figure S3.</span></p>
+  <p class="c0"><span class="c2"><a class="c7" target='_blank' href=
+  "http://ec2-54-165-168-67.compute-1.amazonaws.com/jbrowse/index.html?loc=C321_DA_CP006698%3A456091..459179&tracks=DNA%2Cgbk%2C6a784bde_SNPEFF_VCF%2C0cadda24_BWA_BAM_6a784bde%2C6d4f40c1_BWA_BAM_6a784bde%2Cfd080c34_BWA_BAM_6a784bde%2C3ea6b60c_BWA_BAM_6a784bde&data=%2Fjbrowse%2Fgd_data%2Fprojects%2Fd573fd9e%2Fref_genomes%2F0e77483d%2Fjbrowse&highlight=">
+  Link.</a></span></p>
+  <p class="c0 c1"><span></span></p>
+  <p class="c0 c1"><span></span></p>
+  <p class="c0 c1"><span class="c5"></span></p>
+  <p class="c0 c1"><span class="c5"></span></p>
+  <p class="c0 c1"><span class="c5"></span></p>
+  <p class="c0 c1"><span></span></p>
+  <p class="c0 c1"><span></span></p>
 </body>
 </html>
